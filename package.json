@@ -1,7 +1,7 @@
 {
   "name": "social_media_restapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Social media API",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Akash",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
