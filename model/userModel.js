@@ -15,7 +15,12 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         minLength: 2
-    }
+    },
+    blogs:[{
+        type:mongoose.Schema.Types.ObjectId, 
+        ref:"Blogs",
+        required:true
+    }]
 });
 
 userSchema.pre('save',async function(next){
